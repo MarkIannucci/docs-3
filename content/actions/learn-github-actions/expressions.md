@@ -292,7 +292,7 @@ You can use the following status check functions as expressions in `if` conditio
 
 ### success
 
-Returns `true` when none of the previous steps have failed or been canceled.
+Returns `true` when none of the previous steps have failed, been canceled, or were skipped.
 
 #### Example
 
